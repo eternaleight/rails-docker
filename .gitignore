@@ -1,2 +1,9 @@
 .heroku.sh
 node_modules
+
+# Local runtime configuration and data
+.env
+.env.*
+!.env.example
+!.env.sample
+/src/db/mysql_data/
